@@ -90,7 +90,7 @@ nav li {
 }
 
 /* main section */
-main {
+.main-section-width{
     width: 1140px;
     margin: auto;
     margin-top: 130px;
@@ -98,7 +98,6 @@ main {
 }
 
 .about-section {
-    /* margin-top: 131px; */
     padding: 131px 156px;
     /* border: 2px solid #FD6E0A ; */
     background: #FFF8F3;
@@ -211,6 +210,7 @@ main {
     display: flex;
     gap: 24px;
 }
+
 .resume-title {
     text-align: center;
     margin-top: 130px;
@@ -252,13 +252,77 @@ main {
     font-size: 16px;
     /* border-bottom: 1px solid #D1D1D1; */
 }
-hr{
+
+hr {
     border-bottom: 1px solid #D1D1D1;
 }
-#cv-download{
-    text-align: center;
-    margin-top: 50px ;
-    margin-bottom: 113px;
-    
 
+#cv-download {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+
+/* Contact section  */
+.contact {
+    padding-left: 230px;
+    padding-top: 138px;
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+}
+
+.contact-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.contact-description {
+    width: 562px;
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: inline-block;
+}
+
+.icon {
+    margin-right: 24px;
+}
+
+.name,
+.email {
+    margin-bottom: 24px;
+    width: 461px;
+    height: 64px;
+    border: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+}
+
+.messege {
+    width: 461px;
+    height: 180px;
+    margin-bottom: 24px;
+    border: none;
+    padding-top: 18px;
+    /* padding-bottom: 18px; */
+    padding-left: 30px;
+}
+
+.name {
+    margin-top: 24px;
+    border: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+}
+.btn-contact{
+    margin-bottom: 122px;
 }
