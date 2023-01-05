@@ -19,6 +19,9 @@ header {
     height: 64px;
     padding: 18px 35px;
     background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
     border: none;
     border-radius: 5px;
 
@@ -37,6 +40,7 @@ nav {
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+    
 }
 
 nav ul {
@@ -48,6 +52,7 @@ nav ul {
 nav li {
     list-style: none;
     margin-left: 50px;
+    color: #181818;
 }
 
 /* Bnner style */
@@ -65,9 +70,9 @@ nav li {
     margin-top: 47px;
 } */
 #btn-contact {
-    background-color: white;
     margin-left: 30px;
     border: 2px solid #FD6E0A;
+    color: #FD6E0A;
     background-color: #FFF8F3;
 }
 
@@ -75,22 +80,25 @@ nav li {
     font-weight: 700;
     font-size: 85px;
     margin-bottom: 20px;
+    color: #181818;
 }
 
 .banner-subtitle {
     font-weight: 600;
     font-size: 45px;
     margin-bottom: 5px;
+    color: #474747;
 }
 
 .banner-description {
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 30px;
+    color: #757575;
 }
 
 /* main section */
-.main-section-width{
+.main-section-width {
     width: 1140px;
     margin: auto;
     margin-top: 130px;
@@ -323,6 +331,7 @@ hr {
     padding-bottom: 18px;
     padding-left: 30px;
 }
-.btn-contact{
+
+.btn-contact {
     margin-bottom: 122px;
 }
